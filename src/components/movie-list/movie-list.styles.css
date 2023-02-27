@@ -1,0 +1,13 @@
+.main_container{
+    padding: 60px 10px 0 10px;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.main_row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-around;
+}

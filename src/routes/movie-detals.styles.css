@@ -1,0 +1,28 @@
+.movie_info{
+    color: #f8f5f5;
+    display: flex;
+}
+
+.movie_info__ticket_btn{
+    color: black;
+    background-color: white;
+}
+
+.movie_info div {
+    display: block;
+    padding: 5px 10px;
+}
+.movie_info__name{
+    font-size: 60px;
+}
+.movie_info__other{
+    font-size: 20px;
+}
+.movie_pictures{
+    display: flex;
+    color: #f8f5f5;
+}
+
+.movie_comrev{
+    color: #f8f5f5;
+}

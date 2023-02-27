@@ -1,0 +1,31 @@
+header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.header_main {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.header_main div {
+    border: 3px solid transparent;
+    padding: 5px 10px;
+}
+
+.header_main div:hover, .header_main div:active {
+    border: 3px solid yellow;
+    border-radius: 32px 64px;
+}
+
+.header_logo {
+    font-weight: bold;
+    vertical-align: center;
+    cursor: pointer;
+}

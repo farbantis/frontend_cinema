@@ -1,0 +1,89 @@
+.card{
+    border: 5px solid grey;
+    margin-bottom: 10px;
+}
+
+.card:hover{
+    border: 5px solid yellow;
+    /*transform: rotateZ(50deg);*/
+    /*transform: skewY(20deg);*/
+    /*transform-origin: 0px 50% 0px;*/
+    /*transition: all 0.5s ease 0s;*/
+    /*transform: translateX(200px) rotateY(15deg);*/
+
+
+}
+.card:hover .card_title, .card_image__overlay_rating, .card_image__overlay_genres{
+    color: yellow;
+}
+
+.card_image{
+    position: relative;
+
+}
+
+.card_image__img{
+    display: block;
+    width: 230px;
+    height: 345px;
+}
+
+.card_image__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #f8f5f5;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    background-color: rgb(0, 0, 0, 0.6);
+    font-family: "Franklin Gothic Medium";
+    opacity: 0;
+}
+
+.card_image__overlay:hover{
+    opacity: 1;
+}
+
+.card_image__overlay_rating{
+    padding: 15px 0 5px 0;
+    display: block;
+    flex-grow: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_image__overlay_genre{
+    /*display: block;*/
+    padding: 50px 5px;
+    text-align: center;
+    display: block;
+    flex: 1 1;
+    height: 70%;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+
+.card_image__overlay_genres{
+    padding: 10px;
+}
+
+.card_image__overlay_button{
+    padding: 10px 5px;
+    display: flex;
+    flex-grow: 0;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card_title{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    height: 40px;
+    overflow: hidden;
+}

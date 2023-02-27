@@ -1,0 +1,45 @@
+.pagination_container {
+    padding-bottom: 20px;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    max-width: 550px;
+    padding-top: 30px;
+    color: whitesmoke;
+    font-size: 25px;
+    margin: 0 auto;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+
+.my_page__number {
+    display: inline-block;
+    padding: 5px;
+    min-width: 40px;
+    min-height: 40px;
+    border: 1px solid royalblue;
+    text-align: center;
+    vertical-align: center;
+}
+
+.my_page__number:hover {
+    border: 1px transparent;
+    cursor: pointer;
+}
+
+.my_page__current {
+    display: inline-block;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    color: yellow;
+    border: 1px transparent;
+    cursor: default;
+    text-align: center;
+    vertical-align: center;
+}
